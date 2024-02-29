@@ -1,0 +1,90 @@
+.offers-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  padding: 72px 0 72px;
+}
+.offers-link a.active {
+  color: #fbd341;
+}
+
+.offers-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+.offer-card {
+  display: flex;
+  gap: 28px;
+  background-color: #f8f7f7;
+  border-radius: 7px;
+  padding: 14px;
+}
+
+.offer-hotel {
+  border-bottom: 1px solid rgba(18, 18, 18, 0.1);
+  margin-bottom: 17px;
+}
+
+.offer-title {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.76;
+  color: #000;
+  margin-bottom: 6px;
+}
+
+.offer-date {
+  font-size: 14px;
+  color: #3a3a3a;
+  margin-bottom: 10px;
+}
+
+.offer-description {
+  font-size: 14px;
+  color: #3a3a3a;
+  margin-bottom: 24px;
+}
+
+.offer-price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+.price-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offer-span {
+  position: absolute;
+  top: 0;
+  left: 95px;
+  font-size: 11px;
+  color: #8a8a8a;
+}
+.arrow-style {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #fbd341;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.arrow-style:hover,
+.arrow-style:focus {
+  background-color: #fff700;
+}
+
+.img-style {
+  transform: rotate(-90deg);
+}
