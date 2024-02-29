@@ -19,7 +19,7 @@ offersItem.map((offer) => {
           <span class="offer-span">/за 1 человека</span>
          
           <div class="arrow-style">
-        <img src="./images/arrow.png" alt="arrowRight" class="img-style">
+        <img src="/images/arrow.png" alt="arrowRight" class="img-style">
          </div>
       
         </div>
