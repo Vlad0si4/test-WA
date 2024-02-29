@@ -1,4 +1,4 @@
-import offersItem from "../services/offersItem.json";
+import offersItem from "/services/offersItem.json";
 
 const offersList = document.querySelector(".offers-item");
 const links = document.querySelectorAll(".offers-link a");
