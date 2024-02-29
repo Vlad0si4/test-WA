@@ -1,4 +1,4 @@
-import offersItem from "/services/offersItem.json";
+import offersItem from "../services/offersItem.json";
 
 const offersList = document.querySelector(".offers-item");
 const links = document.querySelectorAll(".offers-link a");
@@ -7,7 +7,7 @@ offersItem.map((offer) => {
   const listItem = document.createElement("li");
   listItem.innerHTML = `
       <div class="offer-card">
-        <img src="../images/image1.png" alt="${offer.title}">
+        <img src="/images/image1.png" alt="${offer.title}">
         <div class="offer-details">
         <div class="offer-hotel">
           <h3 class="offer-title">${offer.title}</h3>
@@ -19,7 +19,7 @@ offersItem.map((offer) => {
           <span class="offer-span">/за 1 человека</span>
          
           <div class="arrow-style">
-        <img src="./images/arrow.png" alt="arrowRight" class="img-style">
+        <img src="/images/arrow.png" alt="arrowRight" class="img-style">
          </div>
       
         </div>
