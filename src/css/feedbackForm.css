@@ -57,39 +57,3 @@
 .feedback-button:focus {
   background-color: #fff700;
 }
-.dropdown-link {
-  position: relative;
-}
-
-.dropdown-content-feedback {
-  display: none;
-  position: absolute;
-  top: 200px;
-  left: 100px;
-  background-color: #3397e2;
-  min-width: 165px;
-  min-height: 159px;
-  box-shadow: -1.2px 3.8px 14.7px 0.3px rgba(0, 0, 0, 0.34);
-  opacity: 0.8;
-  padding: 25px;
-  z-index: 122;
-}
-
-.dropdown-content-feedback a {
-  display: block;
-  position: relative;
-  font-size: 14px;
-  line-height: 2.36;
-  color: #fff;
-  padding: 8px 0;
-  text-decoration: none;
-  padding: 0;
-}
-
-.dropdown-content-feedback a:hover {
-  color: #fbd341;
-}
-
-.show {
-  display: block;
-}
